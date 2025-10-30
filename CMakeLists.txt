@@ -30,7 +30,7 @@ endif()
 include_directories(include)
 
 # Collect all source files
-file(GLOB_RECURSE SOURCES "src/*.cpp" "src/*.c")
+file(GLOB_RECURSE SOURCES "src/*.cpp")
 file(GLOB_RECURSE HEADERS "include/*.hpp" "include/*.h")
 
 # Create the executable
